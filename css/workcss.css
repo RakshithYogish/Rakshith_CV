@@ -1,0 +1,157 @@
+.work_welcome
+{
+    height: 400px;
+    width: 100%;
+}
+
+.spanner
+{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    left: 100px;
+    top: 100px;
+    animation: myAnim 2s ease 0s infinite normal forwards;
+    
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(90deg);
+		transform-origin: 100% 50%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+
+.work_top_container
+{
+    position: relative;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+}
+
+.work_heading
+{
+      
+    font-family: Ink Free;
+    color: #069494;
+    font-size: 40px;
+    position: relative;
+
+    
+}
+
+.work_desc
+{
+    color:#40514E ;
+    font-family: Ink Free;
+    font-size: 140%;
+    position: relative;
+   line-height: 1.5;
+   text-align: left;
+   padding-top: 30px;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 30px;
+}
+
+/*----------------------previous-role--------------------------*/
+
+.previous_role_container
+{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-top: 200px;
+}
+
+.previous_role_heading
+{
+      
+    font-family: Ink Free;
+    color: #069494;
+    font-size: 40px;
+    position: relative;
+    bottom: 200px;
+   
+    
+}
+
+.previous_role_desc
+{
+    color:#40514E ;
+    font-family: Ink Free;
+    font-size: 140%;
+    position: relative;
+   line-height: 1.5;
+   top: -200px;
+   text-align: left;
+   padding-top: 30px;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 30px;
+}
+
+/*--------------------rebirth--------------------------*/
+
+.rebirth_container
+{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-top: 80px;
+    margin-top: 60px;
+   
+}
+
+.rebirth_heading
+{
+    font-family: Ink Free;
+    color: #069494;
+    font-size: 40px;
+    position: relative;
+    bottom: 340px;
+    margin-top:50px ;
+  
+}
+
+.rebirth_desc
+{
+    color:#40514E ;
+    font-family: Ink Free;
+    font-size: 140%;
+    position: absolute;
+   line-height: 1.5;
+   bottom: -60px;
+   text-align: left;
+   padding-top: 30px;
+   padding-left: 100px;
+   padding-right: 100px;
+   padding-bottom: 30px;
+
+}
